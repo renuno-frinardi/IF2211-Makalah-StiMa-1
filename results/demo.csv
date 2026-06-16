@@ -1,0 +1,3 @@
+run_id,algorithm,root_path,target_name,found,found_path,visited_dirs,visited_files,visited_entries,skipped_dirs,error_count,max_frontier_size,max_depth_seen,elapsed_ms
+1,BFS,testing/wide_shallow,target.txt,1,testing/wide_shallow/dir_050/target.txt,51,151,201,0,0,50,1,2.051382
+1,DFS,testing/wide_shallow,target.txt,1,testing/wide_shallow/dir_050/target.txt,51,148,198,0,0,50,1,1.993853

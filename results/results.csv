@@ -1,0 +1,12 @@
+run_id,algorithm,root_path,target_name,found,found_path,visited_dirs,visited_files,visited_entries,skipped_dirs,error_count,max_frontier_size,max_depth_seen,elapsed_ms
+1,BFS,testing/wide_shallow,target.txt,1,testing/wide_shallow/dir_050/target.txt,51,151,201,0,0,50,1,1.270179
+2,DFS,testing/wide_shallow,target.txt,1,testing/wide_shallow/dir_050/target.txt,51,148,198,0,0,50,1,1.019326
+1,BFS,testing/deep_narrow,target.txt,1,testing/deep_narrow/level_001/level_002/level_003/level_004/level_005/level_006/level_007/level_008/level_009/level_010/level_011/level_012/level_013/level_014/level_015/level_016/level_017/level_018/level_019/level_020/level_021/level_022/level_023/level_024/level_025/level_026/level_027/level_028/level_029/level_030/target.txt,31,31,61,0,0,1,30,0.945603
+2,DFS,testing/deep_narrow,target.txt,1,testing/deep_narrow/level_001/level_002/level_003/level_004/level_005/level_006/level_007/level_008/level_009/level_010/level_011/level_012/level_013/level_014/level_015/level_016/level_017/level_018/level_019/level_020/level_021/level_022/level_023/level_024/level_025/level_026/level_027/level_028/level_029/level_030/target.txt,31,30,60,0,0,1,30,0.520082
+1,BFS,testing/mixed_project,target.txt,1,testing/mixed_project/src/traversal/deep/target.txt,11,20,30,0,0,6,3,0.643002
+2,DFS,testing/mixed_project,target.txt,1,testing/mixed_project/src/traversal/deep/target.txt,9,14,24,0,0,6,3,0.128533
+1,BFS,testing/no_target,target.txt,0,not_found,40,80,119,0,0,27,3,0.658870
+2,DFS,testing/no_target,target.txt,0,not_found,40,80,119,0,0,7,3,5.352784
+1,BFS,testing/wide_shallow,target.txt,1,testing/wide_shallow/dir_050/target.txt,51,151,201,0,0,50,1,1.191391
+2,DFS,testing/wide_shallow,target.txt,1,testing/wide_shallow/dir_050/target.txt,51,148,198,0,0,50,1,0.988406
+1,BFS,testing/wide_shallow,target.txt,1,testing/wide_shallow/dir_050/target.txt,51,151,201,0,0,50,1,0.937733
